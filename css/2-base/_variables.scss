@@ -3,10 +3,10 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: 'Lato', $font-stack-system;
-$heading-font-family: 'Dosis', $base-font-family;
-$base-font-weight: 400;
-$heading-font-weight: 600;
+$base-font-family: $font-stack-system;
+$heading-font-family: $base-font-family;
+// $base-font-weight: 400;
+// $heading-font-weight: 600;
 
 // Font Sizes
 $base-font-size: 1em;
