@@ -1,0 +1,22 @@
+body {
+  font: {
+    family: $font-stack-system;
+    weight: 200;
+  }
+  background-color: black;
+  color: #ccc;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+  margin: 0;
+  font-size: inherit;
+}
