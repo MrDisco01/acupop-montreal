@@ -47,6 +47,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.question {
+		margin-bottom: 0;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2188,7 +2192,7 @@
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
-		margin: 0 0 2em 0;
+		margin: 8em 0 2em 0;
 		padding: 3em;
 	}
 
@@ -3604,7 +3608,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 4em 0;
+				padding: 10em 0;
 			}
 
 				#banner h2 {
@@ -3746,7 +3750,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 1em 4em 1em;
+				padding: 6em 1em 6em 1em;
 			}
 
 		/* Main */
