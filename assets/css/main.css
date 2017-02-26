@@ -1813,7 +1813,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #58c0b5;
 		text-decoration: none;
 	}
 
@@ -1974,12 +1974,13 @@
 	}
 
 	header.major {
-		padding: 1em 0;
+		padding: 1em 0 0 0;
 		text-align: center;
 	}
 
 		header.major h2 {
 			margin: 0;
+			margin-bottom: 1em;
 		}
 
 		header.major p {
@@ -2038,8 +2039,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #58c0b5;
+			box-shadow: 0 0 0 2px #58c0b5;
 		}
 
 	.select-wrapper {
@@ -2149,8 +2150,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #58c0b5;
+			box-shadow: 0 0 0 1px #58c0b5;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2296,7 +2297,7 @@
 			.box .image.featured:last-child {
 				border-radius: 0 0 6px 6px;
 				margin-bottom: -3em;
-				margin-top: 3em;
+				margin-top: 0;
 			}
 
 				.box .image.featured:last-child img {
@@ -2346,12 +2347,16 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background-color: #58c0b5;
+				background-image: url(/images/acupop.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
 				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
-				background: #7fcdb8;
+				background: orange;
 				color: #ffffff;
 			}
 
@@ -2719,7 +2724,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #58c0b5;
 			color: #ffffff !important;
 		}
 
@@ -3000,7 +3005,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #58c0b5;
 				color: #ffffff;
 			}
 
@@ -3035,7 +3040,7 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		/*background-image: url("images/overlay.png"), url("/images/acupop_hero.jpg");*/
-		background-image: url("/images/acupop_hero.jpg");
+		background-image: url("/images/acupop.svg");
 		/*background-position: top left,						center center;*/
 		background-position:						center center;
 		/*background-repeat: repeat,							no-repeat;*/
@@ -3178,7 +3183,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #58c0b5;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3200,7 +3205,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #58c0b5;
 		}
 
 		#cta input[type="text"],
@@ -3570,7 +3575,9 @@
 				overflow-x: hidden;
 				padding: 2em 2em !important;
 			}
-
+				.box.special:first-child {
+					margin-top: 0;
+				}
 				.box.features .features-row {
 					border-top: 0;
 					padding: 0;
