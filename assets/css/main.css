@@ -3037,16 +3037,16 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
-		background-color: #666;
+		/*background-attachment: scroll, ;*/
+		background-color: rgba(88, 192, 181, 0.9);
 		/*background-image: url("images/overlay.png"), url("/images/acupop_hero.jpg");*/
-		background-image: url("/images/acupop.svg");
+		/*background-image: url("/images/acupop.svg");*/
 		/*background-position: top left,						center center;*/
-		background-position:						center center;
+		/*background-position:						center;*/
 		/*background-repeat: repeat,							no-repeat;*/
 		background-repeat:							no-repeat;
 		/*background-size: auto,							cover;*/
-		background-size:					cover;
+		/*background-size:					calc(10vw + 5em);*/
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
