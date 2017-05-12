@@ -9,15 +9,30 @@
 		<link rel='stylesheet' href='css/main.css' />
 	</head>
 	<body class='{{ pageId }}'>
-		<block name='content'>
-		</block>
+		<!-- <div id='page-wrapper'> -->
+			<header id='header' class='alt'>
+				<h1><a href='/'>AcuPop</a></h1>
+				<nav id='nav'>
+				  <ul>
+				    <li><a href='/acupuncture'>Acupuncture</a></li>
+				    <li><a href='/massotherapie'>Massothérapie</a></li>
+				    <li><a href='/osteopathie'>Ostéopathie</a></li>
+				    <li><a href='/points-service'>Points de service</a></li>
+				    <li><a href='/faq'>FAQ</a></li>
+				    <li><a href='#' class='button'>Rendez-Vous</a></li>
+				  </ul>
+				</nav>
+			</header>
 
-		<script src='/assets/js/jquery.min.js'></script>
-		<script src='/assets/js/jquery.dropotron.min.js'></script>
-		<script src='/assets/js/jquery.scrollgress.min.js'></script>
-		<script src='/assets/js/skel.min.js'></script>
-		<script src='/assets/js/util.js'></script>
-		<script src='/assets/js/main.js'></script>
+			<block name='content'></block>
+		<!-- </div> -->
+
+		<script src='vendor/jquery.min.js'></script>
+		<script src='vendor/jquery.dropotron.min.js'></script>
+		<script src='vendor/jquery.scrollgress.min.js'></script>
+		<script src='vendor/skel.min.js'></script>
+		<script src='vendor/util.js'></script>
+		<script src='vendor/main.js'></script>
 
 	</body>
 </html>

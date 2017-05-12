@@ -9,8 +9,9 @@ const locals = {}
 module.exports = {
   devtool: 'source-map',
   matchers: {
-    html: '*(**/)*.sgr',
-    css: '*(**/)*.sss'
+    html: '*(**/)*.html',
+    css: '*(**/)*.sss',
+    vendor: 'assets/vendor/**'
   },
   ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
   reshape: htmlStandards({
