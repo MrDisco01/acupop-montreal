@@ -4,10 +4,7 @@ const cssStandards = require('spike-css-standards')
 const jsStandards = require('spike-js-standards')
 const pageId = require('spike-page-id')
 const marked = require('marked')
-const locals = {
-  marked: marked,
-  pageId: pageId(ctx)
-}
+const locals = {}
 
 module.exports = {
   devtool: 'source-map',
@@ -15,8 +12,11 @@ module.exports = {
     html: '*(**/)*.sgr',
     css: '*(**/)*.sss'
   },
-  ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
-  reshape: htmlStandards({ locals, parser: false }),
+  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
+  reshape: htmlStandards({
+    locals: (ctx) => { return Object.assign(locals, { pageId: pageId(ctx) }, { marked: marked })},
+    parser: false
+   }),
   plugins: [
       new SpikeDatoCMS({
         addDataTo: locals,
