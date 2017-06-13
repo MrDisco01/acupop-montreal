@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 64);
+/******/ 	return __webpack_require__(__webpack_require__.s = 86);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -75,7 +75,7 @@ console.log('you can use ES6 here : )');
 
 /***/ }),
 
-/***/ 64:
+/***/ 86:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(0);

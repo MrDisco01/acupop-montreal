@@ -13,7 +13,7 @@ module.exports = {
     css: '*(**/)*.sss'
   },
   vendor: 'assets/vendor/**',
-  ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
+  ignore: ['**/layout.html', '**/_*', '**/_*/**', '**/.*', 'readme.md', 'yarn.lock'],
   reshape: htmlStandards({
     locals: (ctx) => { return Object.assign(locals, { pageId: pageId(ctx) }, { marked: marked })},
     parser: false
