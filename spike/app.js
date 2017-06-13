@@ -10,9 +10,9 @@ module.exports = {
   devtool: 'source-map',
   matchers: {
     html: '*(**/)*.html',
-    css: '*(**/)*.sss',
-    vendor: 'assets/vendor/**'
+    css: '*(**/)*.sss'
   },
+  vendor: 'assets/vendor/**',
   ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
   reshape: htmlStandards({
     locals: (ctx) => { return Object.assign(locals, { pageId: pageId(ctx) }, { marked: marked })},
