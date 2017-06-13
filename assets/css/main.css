@@ -2268,6 +2268,7 @@
 		.box.special {
 			text-align: center;
 			margin: 8em 0 2em 0;
+			border: 2px solid #f5f5f5;
 		}
 
 		.box .image.featured {
@@ -2348,7 +2349,7 @@
 
 			.icon.major.accent2 {
 				background-color: #58c0b5;
-				background-image: url(/images/acupop.svg);
+				background-image: url(/img/logo.png);
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: center;
@@ -2762,7 +2763,7 @@
 		padding-top: 3em;
 	}
 
-	body.landing #page-wrapper {
+	body.index #page-wrapper {
 		padding-top: 0;
 	}
 
@@ -2896,7 +2897,8 @@
 		#header input[type="submit"],
 		#header input[type="reset"],
 		#header input[type="button"],
-		#header .button {
+		#header .button,
+		 {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #999;
 			color: #fff;
@@ -2940,7 +2942,6 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
 		}
@@ -3038,9 +3039,9 @@
 
 	#banner {
 		/*background-attachment: scroll, ;*/
-		background-color: rgba(88, 192, 181, 0.9);
-		/*background-image: url("images/overlay.png"), url("/images/acupop_hero.jpg");*/
-		/*background-image: url("/images/acupop.svg");*/
+		background-color: white;
+		/*background-image: url("img/overlay.png"), url("/img/acupop_hero.jpg");*/
+		/*background-image: url("/img/acupop.svg");*/
 		/*background-position: top left,						center center;*/
 		/*background-position:						center;*/
 		/*background-repeat: repeat,							no-repeat;*/
@@ -3056,7 +3057,7 @@
 			margin-bottom: 0;
 		}
 
-		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+		#banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
 		}
 
@@ -3077,8 +3078,8 @@
 		#banner input[type="button"],
 		#banner .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-			color: #fff;
+			box-shadow: inset 0 0 0 2px rgba(125, 198, 177, 1);
+			color: rgb(125, 198, 177);
 			min-width: 12em;
 		}
 
@@ -3086,7 +3087,7 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				background-color: rgba(125, 198, 177, 0.1);
 			}
 
 			#banner input[type="submit"]:active,
@@ -3100,8 +3101,8 @@
 			#banner input[type="reset"].special,
 			#banner input[type="button"].special,
 			#banner .button.special {
-				background: #fff;
-				color: #666 !important;
+				background: rgb(125, 198, 177);
+				color: #fff !important;
 			}
 
 /* Main */
@@ -3129,7 +3130,7 @@
 				padding: 1em 0 1.25em 0;
 			}
 
-	body.landing #main {
+	body.index #main {
 		margin-top: -14em;
 	}
 
@@ -3259,7 +3260,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 18em 0;
+				padding: 9em 0;
 			}
 
 	}
@@ -3646,7 +3647,7 @@
 						padding-bottom: 1em;
 					}
 
-			body.landing #main {
+			body.index #main {
 				padding: 0;
 				margin-top: 0;
 			}
@@ -3774,3 +3775,8 @@
 			}
 
 	}
+
+header .fb-like {
+	display: block;
+	margin-top: 15px
+}
