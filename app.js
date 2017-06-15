@@ -30,7 +30,7 @@ module.exports = {
           type: 'locations_page'
         }, {
           type: 'faq'
-        }]
+        }
       })
     ],
   postcss: cssStandards(),
