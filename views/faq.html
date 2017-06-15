@@ -1,0 +1,13 @@
+<extends src='layout.html'>
+	<block name='content'>
+    <section id="main" class="container">
+      <header>
+        <h2>Foire Aux Questions</h2>
+      </header>
+      <div class="box">
+        <span class="image featured"><img src="/img/salle.jpg" alt="" /></span>
+        {{{ marked(dato.faq[0].text) }}}
+      </div>
+    </section>
+  </block>
+</extends>

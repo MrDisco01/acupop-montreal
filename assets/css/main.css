@@ -2348,8 +2348,8 @@
 			}
 
 			.icon.major.accent2 {
-				background-color: #58c0b5;
-				background-image: url(/img/logo.png);
+				background-color: transparent;
+				background-image: url(/img/acces.png);
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: center;
@@ -2357,17 +2357,29 @@
 			}
 
 			.icon.major.accent3 {
-				background: orange;
+				background-color: transparent;
+				background-image: url(/img/approche.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
 				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
-				background: #90b0ba;
+				background-color: transparent;
+				background-image: url(/img/expert.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
 				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
-				background: #e5cb95;
+				background-color: transparent;
+				background-image: url(/img/service.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
 				color: #ffffff;
 			}
 
