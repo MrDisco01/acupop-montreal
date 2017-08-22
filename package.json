@@ -13,7 +13,7 @@
     "reshape-standard": "^1.0.0",
     "spike": "^1.1.0",
     "spike-css-standards": "^1.0.0",
-    "spike-datocms": "^0.2.0",
+    "spike-datocms": "^2.1.0",
     "spike-js-standards": "^2.0.1",
     "spike-page-id": "^1.0.0",
     "webpack": "^2.3.3"
